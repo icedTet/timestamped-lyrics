@@ -1,6 +1,6 @@
 {
   "name": "timestamped-lyrics",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Package to fetch and display timestamped lyrics for a given song.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -11,7 +11,15 @@
     "typescript",
     "karaoke"
   ],
-  "author": "John Li",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icedTet/timestamped-lyrics.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "author": "John Li (Tet) <npm@tet.moe>",
   
   "license": "MIT",
 
