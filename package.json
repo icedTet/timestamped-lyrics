@@ -1,6 +1,6 @@
 {
   "name": "timestamped-lyrics",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Simple Package to fetch and display timestamped lyrics for a given song.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -22,7 +22,10 @@
   "author": "John Li (Tet) <npm@tet.moe>",
   
   "license": "MIT",
-
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^24.0.4",
