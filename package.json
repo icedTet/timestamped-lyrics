@@ -3,14 +3,29 @@
   "version": "1.0.0",
   "description": "Simple Package to fetch and display timestamped lyrics for a given song.",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "types": "index.d.ts",
+  "keywords": [
+    "lyrics",
+    "timestamped",
+    "music",
+    "typescript",
+    "karaoke"
+  ],
+  "author": "John Li",
+  
+  "license": "MIT",
+
   "devDependencies": {
+    "@types/jest": "^30.0.0",
     "@types/node": "^24.0.4",
+    "@types/node-fetch": "2",
+    "jest": "^30.0.2",
+    "ts-jest": "^29.4.0",
     "typescript": "^5.8.3"
-  }
+  },
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  },
+  "prepublish": "tsc"
+
 }
