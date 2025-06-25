@@ -1,9 +1,9 @@
 {
   "name": "timestamped-lyrics",
-  "version": "1.0.2",
+  "version": "1.0.2hf",
   "description": "Simple Package to fetch and display timestamped lyrics for a given song.",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "keywords": [
     "lyrics",
     "timestamped",
